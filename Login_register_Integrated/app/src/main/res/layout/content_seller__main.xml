@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_seller__main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.aditighamandi.login_register.seller_MainActivity"
+    tools:showIn="@layout/activity_seller__main">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of Items"
+        android:ems="10"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/numItems"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numItems"
+        android:layout_alignLeft="@+id/numItems"
+        android:layout_alignStart="@+id/numItems"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView" />
+</RelativeLayout>
